@@ -1,6 +1,6 @@
 datacache <- new.env(hash=TRUE, parent=emptyenv())
 
-org.TcCLB.esmer.tritryp <- function() showQCData("org.Tcruzi.eg", datacache)
+org.TcCLB.esmer.tritryp <- function() showQCData("org.TcCLB.esmer.tritryp", datacache)
 org.TcCLB.esmer.tritryp_dbconn <- function() dbconn(datacache)
 org.TcCLB.esmer.tritryp_dbfile <- function() dbfile(datacache)
 org.TcCLB.esmer.tritryp_dbschema <- function(file="", show.indices=FALSE) dbschema(datacache, file=file, show.indices=show.indices)
