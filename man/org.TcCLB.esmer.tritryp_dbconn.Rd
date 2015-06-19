@@ -76,11 +76,6 @@
   ## Count the number of rows in the "genes" table:
   dbGetQuery(org.TcCLB.esmer.tritryp_dbconn(), "SELECT COUNT(*) FROM genes")
 
-  ## The connection object returned by org.TcCLB.esmer.tritryp_dbconn() was
-  ## created with:
-  dbConnect(SQLite(), dbname=org.TcCLB.esmer.tritryp_dbfile(), cache_size=64000,
-  synchronous=0)
-
   org.TcCLB.esmer.tritryp_dbschema()
 
   org.TcCLB.esmer.tritryp_dbInfo()
