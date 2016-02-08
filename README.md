@@ -1,7 +1,7 @@
 # org.TcCLB.esmer.tritryp.db
 
 Genome-wide annotation package for *T. cruzi strain CL Brener Esmeraldo-like*, based on
-annotations from [TriTrypDB 25](http://tritrypdb.org/tritrypdb/).
+annotations from [TriTrypDB 26](http://tritrypdb.org/tritrypdb/).
 
 This package was generated using the tools from
 [https://github.com/elsayed-lab/eupathdb-organismdb](github.com/eupathdb-organismdb).
