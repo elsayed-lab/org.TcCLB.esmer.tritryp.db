@@ -73,6 +73,7 @@
 }
 
 \examples{
+  library(DBI)
   ## Count the number of rows in the "genes" table:
   dbGetQuery(org.TcCLB.esmer.tritryp_dbconn(), "SELECT COUNT(*) FROM genes")
 

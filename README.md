@@ -1,7 +1,7 @@
 # org.TcCLB.esmer.tritryp.db
 
-Genome-wide annotation package for *T. cruzi strain CL Brener Esmeraldo-like*, based on
-annotations from [TriTrypDB 27](http://tritrypdb.org/tritrypdb/).
+Genome-wide annotation package for *Trypanosoma cruzi CL Brener Esmeraldo-like*, based on
+annotations from [TriTrypDB 31](http://tritrypdb.org/tritrypdb/).
 
 This package was generated using the tools from
 [https://github.com/elsayed-lab/eupathdb-organismdb](github.com/eupathdb-organismdb).
@@ -40,7 +40,7 @@ gene_ids = head(keys(org.TcCLB.esmer.tritryp.db), 10)
 annotations = AnnotationDbi::select(org.TcCLB.esmer.tritryp.db, 
                                     keys=gene_ids, 
                                     keytype='GID', 
-                                    columns=c('CHROMOSOME', 'GENENAME'))
+                                    columns=c('CHROMOSOME', 'GENEDESCRIPTION'))
 head(annotations)
 
 # GO terms
